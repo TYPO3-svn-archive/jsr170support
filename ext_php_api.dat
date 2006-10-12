@@ -1,0 +1,60 @@
+a:2:{s:4:"meta";a:3:{s:5:"title";s:0:"";s:5:"descr";s:0:"";s:7:"options";a:2:{s:10:"usageCount";N;s:19:"includeCodeAbstract";N;}}s:5:"files";a:2:{s:14:"MD5_98a1d4e8b2";a:4:{s:8:"filename";s:31:"class.jsr170support_connect.php";s:8:"filesize";i:5059;s:6:"header";a:5:{s:4:"text";s:46:"
+
+Basisklasse für  'jsr170support' Extension.
+";s:5:"param";a:0:{}s:6:"return";a:2:{i:0;s:6:"[type]";i:1;s:3:"...";}s:5:"other";a:1:{i:0;s:44:"@author	Dimitri Ebert <dimitri.ebert@dkd.de>";}s:11:"other_index";a:1:{s:7:"@author";a:1:{i:0;s:36:"Dimitri Ebert <dimitri.ebert@dkd.de>";}}}s:3:"DAT";a:7:{i:1;a:8:{s:6:"header";s:28:"class jsr170support_connect{";s:5:"class";i:1;s:11:"parentClass";s:21:"jsr170support_connect";s:4:"cDat";a:3:{s:4:"text";s:32:"
+
+class jsr170support_connect
+
+
+";s:5:"param";a:0:{}s:6:"return";a:2:{i:0;s:6:"[type]";i:1;s:3:"...";}}s:7:"content";s:0:"";s:12:"content_size";i:893;s:13:"content_lines";i:38;s:6:"atLine";i:35;}i:3;a:7:{s:6:"header";s:24:"function connect($conf){";s:11:"parentClass";s:21:"jsr170support_connect";s:4:"cDat";a:3:{s:4:"text";s:98:"
+
+Grundfunktion für Aufbau des PHP-Objektes mit Referenzen auf Repository, Session und RootNode
+
+
+";s:5:"param";a:1:{i:0;a:2:{i:0;s:5:"array";i:1;s:100:"Gesammtkonfiguration, erwartet die Konfiguration für getRepository und getSession (repository.login)";}}s:6:"return";a:2:{i:0;s:6:"[type]";i:1;s:3:"...";}}s:7:"content";s:0:"";s:12:"content_size";i:175;s:13:"content_lines";i:8;s:6:"atLine";i:80;}i:5;a:7:{s:6:"header";s:30:"function getRepository($conf){";s:11:"parentClass";s:21:"jsr170support_connect";s:4:"cDat";a:3:{s:4:"text";s:75:"
+
+Ruft abhängig von repository.connect die Funnktion für Verbindungsaufbau
+";s:5:"param";a:1:{i:0;a:2:{i:0;s:5:"array";i:1;s:24:"Repository-Konfiguration";}}s:6:"return";a:2:{i:0;s:6:"object";i:1;s:10:"Repository";}}s:7:"content";s:0:"";s:12:"content_size";i:188;s:13:"content_lines";i:9;s:6:"atLine";i:95;}i:7;a:7:{s:6:"header";s:34:"function getRepository_rmi($conf){";s:11:"parentClass";s:21:"jsr170support_connect";s:4:"cDat";a:3:{s:4:"text";s:45:"
+
+Verbindungsaufbau mit Repository durch RMI
+";s:5:"param";a:1:{i:0;a:2:{i:0;s:5:"array";i:1;s:28:"Konfiguration für RMI-Aufruf";}}s:6:"return";a:2:{i:0;s:6:"obejct";i:1;s:10:"Repository";}}s:7:"content";s:0:"";s:12:"content_size";i:335;s:13:"content_lines";i:11;s:6:"atLine";i:111;}i:9;a:7:{s:6:"header";s:35:"function getRepository_jndi($conf){";s:11:"parentClass";s:21:"jsr170support_connect";s:4:"cDat";a:3:{s:4:"text";s:69:"
+
+Verbindungsaufbau mit Repository durch JNDI (nicht implementiert)
+
+";s:5:"param";a:1:{i:0;a:2:{i:0;s:5:"array";i:1;s:29:"Konfiguration für JNDI-Aufruf";}}s:6:"return";a:2:{i:0;s:6:"obejct";i:1;s:10:"Repository";}}s:7:"content";s:0:"";s:12:"content_size";i:37;s:13:"content_lines";i:9;s:6:"atLine";i:129;}i:11;a:4:{s:6:"header";s:37:"function getSession($conf = array()){";s:11:"parentClass";s:21:"jsr170support_connect";s:4:"cDat";a:3:{s:4:"text";s:58:"
+
+getSession = Login-Funktion
+erwartet $this->repository
+
+";s:5:"param";a:1:{i:0;a:2:{i:0;s:5:"array";i:1;s:57:"Loginkonfiguration mit evtl. workspace, password, user Id";}}s:6:"return";a:2:{i:0;s:6:"object";i:1;s:7:"Session";}}s:6:"atLine";i:146;}i:13;a:7:{s:6:"header";s:38:"function getRootNode($conf = array()){";s:11:"parentClass";s:21:"jsr170support_connect";s:4:"cDat";a:3:{s:4:"text";s:57:"
+
+Generates html table with title and several statistics
+";s:5:"param";a:1:{i:0;a:2:{i:0;s:5:"array";i:1;s:13:"[spaceholder]";}}s:6:"return";a:2:{i:0;s:6:"object";i:1;s:8:"RootNode";}}s:7:"content";s:0:"";s:12:"content_size";i:290;s:13:"content_lines";i:13;s:6:"atLine";i:179;}}}s:14:"MD5_beee9be6c9";a:4:{s:8:"filename";s:27:"class.jsr170support_div.php";s:8:"filesize";i:5096;s:6:"header";a:5:{s:4:"text";s:60:"
+
+Module 'JSR170Support' for the 'jsr170support' extension.
+";s:5:"param";a:0:{}s:6:"return";a:2:{i:0;s:6:"[type]";i:1;s:3:"...";}s:5:"other";a:1:{i:0;s:44:"@author	Dimitri Ebert <dimitri.ebert@dkd.de>";}s:11:"other_index";a:1:{s:7:"@author";a:1:{i:0;s:36:"Dimitri Ebert <dimitri.ebert@dkd.de>";}}}s:3:"DAT";a:6:{i:1;a:8:{s:6:"header";s:24:"class jsr170support_div{";s:5:"class";i:1;s:11:"parentClass";s:17:"jsr170support_div";s:4:"cDat";a:3:{s:4:"text";s:139:"
+
+class jsr170support_div
+stellt die Funktionen für JSR170 Unterstützung
+Informationsfunktionen, Konvertierungsfunktionen, Debugfunktionen
+";s:5:"param";a:0:{}s:6:"return";a:2:{i:0;s:6:"[type]";i:1;s:3:"...";}}s:7:"content";s:0:"";s:12:"content_size";i:63;s:13:"content_lines";i:11;s:6:"atLine";i:37;}i:3;a:7:{s:6:"header";s:40:"function getSimpleNodeProperties($node){";s:11:"parentClass";s:17:"jsr170support_div";s:4:"cDat";a:3:{s:4:"text";s:46:"
+
+Verbindungsaufbau mit Repository durch RMI
+
+";s:5:"param";a:1:{i:0;a:2:{i:0;s:6:"object";i:1;s:11:"JSR170-Node";}}s:6:"return";a:2:{i:0;s:5:"array";i:1;s:83:"Properties(nur name => value) in einem assotiativen Array, auch multiple Properties";}}s:7:"content";s:0:"";s:12:"content_size";i:471;s:13:"content_lines";i:21;s:6:"atLine";i:55;}i:5;a:7:{s:6:"header";s:46:"function getMultiplePropertyValues($property){";s:11:"parentClass";s:17:"jsr170support_div";s:4:"cDat";a:3:{s:4:"text";s:46:"
+
+Verbindungsaufbau mit Repository durch RMI
+
+";s:5:"param";a:1:{i:0;a:2:{i:0;s:6:"object";i:1;s:28:"Property mit mehreren Werten";}}s:6:"return";a:2:{i:0;s:5:"array";i:1;s:16:"Array mit Werten";}}s:7:"content";s:0:"";s:12:"content_size";i:132;s:13:"content_lines";i:10;s:6:"atLine";i:83;}i:7;a:7:{s:6:"header";s:28:"function getNodesArr($node){";s:11:"parentClass";s:17:"jsr170support_div";s:4:"cDat";a:3:{s:4:"text";s:46:"
+
+Verbindungsaufbau mit Repository durch RMI
+
+";s:5:"param";a:1:{i:0;a:2:{i:0;s:6:"object";i:1;s:4:"Node";}}s:6:"return";a:2:{i:0;s:5:"array";i:1;s:32:"Array mit Namen von  Unterknoten";}}s:7:"content";s:0:"";s:12:"content_size";i:213;s:13:"content_lines";i:14;s:6:"atLine";i:100;}i:9;a:4:{s:6:"header";s:36:"function debugNodeProperties($node){";s:11:"parentClass";s:17:"jsr170support_div";s:4:"cDat";a:3:{s:4:"text";s:66:"
+
+Node-Debug mit Properties ohne Unterknoten
+mit direkter Ausgabe
+";s:5:"param";a:1:{i:0;a:2:{i:0;s:6:"object";i:1;s:4:"Node";}}s:6:"return";a:2:{i:0;s:5:"array";i:1;s:57:"assotiatives Array mit allen Eigenschaften einer Property";}}s:6:"atLine";i:122;}i:11;a:7:{s:6:"header";s:81:"function debugNodeNodes($node,$recursive = 0, $withPoroperties = 0, $level = 1 ){";s:11:"parentClass";s:17:"jsr170support_div";s:4:"cDat";a:3:{s:4:"text";s:80:"
+
+Rekursive Debugfunktion für Knoten mit Unterknoten evtl. inklusiv Properties
+
+";s:5:"param";a:4:{i:0;a:2:{i:0;s:6:"object";i:1;s:28:"Konfiguration für RMI-Aufruf";}i:1;a:2:{i:0;s:7:"integer";i:1;s:28:"rekursiv oder nicht rekursiv";}i:2;a:2:{i:0;s:7:"integer";i:1;s:24:"mit oder ohne Properties";}i:3;a:2:{i:0;s:7:"integer";i:1;s:20:"für Ausgabekontrolle";}}s:6:"return";a:2:{i:0;s:5:"array";i:1;s:44:"array mit Knoten, Unterknoten und Properties";}}s:7:"content";s:0:"";s:12:"content_size";i:900;s:13:"content_lines";i:32;s:6:"atLine";i:154;}}}}}
